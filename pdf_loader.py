@@ -42,7 +42,7 @@ class PdfLoader(BaseLoader):
 # ----------------- 실행 테스트 -----------------
 if __name__ == "__main__":
     # 파일 경로는 본인의 환경에 맞게 수정하세요.
-    file_name = "./srcdata/./srcdata/2026년도_전통시장_및_상점가_활성화_지원사업_공고문.pdf" 
+    file_name = "./srcdata/./srcdata/1.pdf" 
     
     try:
         print(f"[{file_name}] PDF 텍스트 분석 중...")
