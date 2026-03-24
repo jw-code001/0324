@@ -35,3 +35,30 @@ hwpx ? 뭔가 분리하게 편하게 된 문서인듯.
 http://aistudio.google.com/ ----> 여기서 좌하단 get API키 (1계정만 운영할 것... 돈나감)
 
 사용량을 자주 체크할 것
+
+
+
+google_api_key = st.secrets["GOOGLE_API_KEY"].apikey
+이게 에러가 안나게끔 절차와 포멧을 알려줘
+
+
+
+
+
+
+
+
+
+
+
+.streamlit/secrets.toml
+사이트에서 확인할것
+
+
+streamlit run app.py
+
+
+터미널이 홈피띄우느라 정지됨
+ctrl C = break
+
+

@@ -3,7 +3,7 @@
 import olefile
 import zlib
 import struct
-from langchain_core.documents import Document
+from langchain_core.documents import Document # 자주 버전 변경됨... 에러시 체크할 것 !!
 
 from langchain_community.document_loaders.base import BaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -19,7 +19,7 @@ def extract_text_from_hwp(file_path):
     text_list = []
     
     # 💡 16바이트를 차지하는 HWP 확장 컨트롤 코드 목록
-    EXTENDED_CONTROLS = {1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 21, 22, 23}
+    EXTENDED_CONTROLS = {1, 2, 3, 11, 12, 14, 15, 16, 17, 18, 21, 22, 23} # 16바이트용 관리필요
     
     for section in sections:
         stream = f.openstream(section)
