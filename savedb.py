@@ -32,7 +32,8 @@ def clean_text(text):
 
 def main():
     # --- [Step 1] 데이터 로드 ---
-    file_path = "./srcdata/2026년도_전통시장_및_상점가_활성화_지원사업_공고문.hwp"
+    # file_path = "./srcdata/2026년도_전통시장_및_상점가_활성화_지원사업_공고문.hwp"
+    file_path = "./srcdata/2026년도_전통시장_및_상점가_활성화_지원사업_공고문.pdf"
     print("1. 문서를 로드하는 중...")
     
     raw_data = hwp_loader.extract_text_from_hwp(file_path) 

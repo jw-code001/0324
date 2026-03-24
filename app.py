@@ -35,7 +35,7 @@ def load_rag_pipeline():
         # secrets에서 구글 API 키를 가져옵니다.
         google_api_key = st.secrets["GOOGLE_API_KEY"].apikey
         llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-flash",  # <--- 1.5를 2.5로 변경!
+            model="gemini-2.5-flash",  # <--- 1.5를 2.5로 변경! 
             temperature=0, 
             google_api_key=google_api_key
         )
