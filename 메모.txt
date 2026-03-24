@@ -61,4 +61,4 @@ streamlit run app.py
 터미널이 홈피띄우느라 정지됨
 ctrl C = break
 
-
+스트림릿 사이트에서도 올려볼것.
