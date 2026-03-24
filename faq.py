@@ -23,7 +23,7 @@ def main():
     st.divider()
 
     # 1. JSON 데이터 로드 (파일명이 faq.json 가정)
-    faq_list = load_faq_data('faq.json')
+    faq_list = load_faq_data('faq.json') # 위치는 변경가능
 
     if not faq_list:
         st.error("FAQ 데이터를 불러올 수 없습니다. 파일 경로를 확인해주세요.")
